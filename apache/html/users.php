@@ -68,7 +68,13 @@ while ($result = mysqli_fetch_array($customers, MYSQLI_ASSOC) ) {
                     <?php echo $user['email']; ?>
                 </td>
                 <td>
-                    <?php echo $user['gender']; ?>
+                    <?php 
+                     if($user['gender'] === 'm'){
+                         echo('мужской');
+                     }else{
+                        echo('женский');
+                     }                    
+                    ?>
                     
                 </td>
                 <td>

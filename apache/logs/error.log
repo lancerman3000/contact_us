@@ -292,3 +292,10 @@ AH00558: apache2: Could not reliably determine the server's fully qualified doma
 [Sat Dec 04 22:33:24.338707 2021] [php7:notice] [pid 23] [client 172.18.0.1:56322] PHP Notice:  Undefined index: email in /var/www/html/auth.php on line 2
 [Sat Dec 04 22:33:24.340111 2021] [php7:notice] [pid 23] [client 172.18.0.1:56322] PHP Notice:  Undefined index: password in /var/www/html/auth.php on line 3
 [Sat Dec 04 23:14:29.845173 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.4. Set the 'ServerName' directive globally to suppress this message
+[Sat Dec 04 23:20:29.175630 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.26 configured -- resuming normal operations
+[Sat Dec 04 23:20:29.176973 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Dec 04 23:20:31.775192 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.20.0.4. Set the 'ServerName' directive globally to suppress this message
+[Sat Dec 04 23:31:01.941230 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.26 configured -- resuming normal operations
+[Sat Dec 04 23:31:01.943296 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
