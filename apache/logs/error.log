@@ -220,3 +220,75 @@ AH00558: apache2: Could not reliably determine the server's fully qualified doma
 [Sat Dec 04 17:52:02.163325 2021] [php7:error] [pid 18] [client 172.18.0.1:55862] script '/var/www/html/users.php' not found or unable to stat
 [Sat Dec 04 18:59:17.362123 2021] [php7:notice] [pid 18] [client 172.18.0.1:55880] PHP Notice:  Undefined index: email in /var/www/html/auth.php on line 5, referer: http://localhost/auth.php
 [Sat Dec 04 18:59:17.365284 2021] [php7:notice] [pid 18] [client 172.18.0.1:55880] PHP Notice:  Undefined index: password in /var/www/html/auth.php on line 6, referer: http://localhost/auth.php
+[Sat Dec 04 19:39:13.886944 2021] [php7:error] [pid 20] [client 172.18.0.1:56026] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /var/www/html/users.html on line 23, referer: http://localhost/reg.php
+[Sat Dec 04 20:35:42.229653 2021] [php7:notice] [pid 21] [client 172.18.0.1:56036] PHP Notice:  Undefined variable: page in /var/www/html/users.html on line 29, referer: http://localhost/reg.php
+[Sat Dec 04 20:35:42.231365 2021] [php7:notice] [pid 21] [client 172.18.0.1:56036] PHP Notice:  Undefined variable: page in /var/www/html/users.html on line 30, referer: http://localhost/reg.php
+[Sat Dec 04 20:35:42.232110 2021] [php7:notice] [pid 21] [client 172.18.0.1:56036] PHP Notice:  Undefined variable: page in /var/www/html/users.html on line 30, referer: http://localhost/reg.php
+[Sat Dec 04 20:35:42.233445 2021] [php7:notice] [pid 21] [client 172.18.0.1:56036] PHP Notice:  Undefined variable: page in /var/www/html/users.html on line 29, referer: http://localhost/reg.php
+[Sat Dec 04 20:36:45.410506 2021] [php7:notice] [pid 17] [client 172.18.0.1:56040] PHP Notice:  Undefined variable: page in /var/www/html/users.html on line 29, referer: http://localhost/reg.php
+[Sat Dec 04 20:36:45.412174 2021] [php7:notice] [pid 17] [client 172.18.0.1:56040] PHP Notice:  Undefined variable: page in /var/www/html/users.html on line 30, referer: http://localhost/reg.php
+[Sat Dec 04 20:36:45.412885 2021] [php7:notice] [pid 17] [client 172.18.0.1:56040] PHP Notice:  Undefined variable: page in /var/www/html/users.html on line 30, referer: http://localhost/reg.php
+[Sat Dec 04 20:36:45.413794 2021] [php7:notice] [pid 17] [client 172.18.0.1:56040] PHP Notice:  Undefined variable: page in /var/www/html/users.html on line 29, referer: http://localhost/reg.php
+[Sat Dec 04 21:25:33.994087 2021] [php7:notice] [pid 21] [client 172.18.0.1:56074] PHP Notice:  Undefined variable: customers in /var/www/html/auth.php on line 7, referer: http://localhost/auth.html
+[Sat Dec 04 21:25:33.995457 2021] [php7:warn] [pid 21] [client 172.18.0.1:56074] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /var/www/html/auth.php on line 7, referer: http://localhost/auth.html
+[Sat Dec 04 21:30:21.303353 2021] [php7:notice] [pid 17] [client 172.18.0.1:56078] PHP Notice:  Undefined variable: this_page_first_result in /var/www/html/auth.php on line 13, referer: http://localhost/auth.html
+[Sat Dec 04 21:30:21.304615 2021] [php7:notice] [pid 17] [client 172.18.0.1:56078] PHP Notice:  Undefined variable: results_per_page in /var/www/html/auth.php on line 13, referer: http://localhost/auth.html
+[Sat Dec 04 21:30:21.305920 2021] [php7:warn] [pid 17] [client 172.18.0.1:56078] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /var/www/html/auth.php on line 14, referer: http://localhost/auth.html
+[Sat Dec 04 21:30:21.306744 2021] [php7:warn] [pid 17] [client 172.18.0.1:56078] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /var/www/html/auth.php on line 20, referer: http://localhost/auth.html
+[Sat Dec 04 21:30:21.307473 2021] [php7:notice] [pid 17] [client 172.18.0.1:56078] PHP Notice:  Undefined variable: users in /var/www/html/auth.php on line 74, referer: http://localhost/auth.html
+[Sat Dec 04 21:30:21.308140 2021] [php7:warn] [pid 17] [client 172.18.0.1:56078] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/auth.php on line 74, referer: http://localhost/auth.html
+[Sat Dec 04 21:31:36.109345 2021] [php7:error] [pid 22] [client 172.18.0.1:56082] script '/var/www/html/users.php' not found or unable to stat, referer: http://localhost/auth.php
+[Sat Dec 04 21:31:44.325630 2021] [php7:error] [pid 19] [client 172.18.0.1:56086] script '/var/www/html/users.php' not found or unable to stat, referer: http://localhost/auth.php
+[Sat Dec 04 21:37:22.536926 2021] [php7:error] [pid 20] [client 172.18.0.1:56090] script '/var/www/html/users.php' not found or unable to stat, referer: http://localhost/auth.php
+[Sat Dec 04 21:38:29.888079 2021] [php7:error] [pid 18] [client 172.18.0.1:56092] script '/var/www/html/users.php' not found or unable to stat, referer: http://localhost/auth.php
+[Sat Dec 04 21:38:32.892984 2021] [php7:error] [pid 18] [client 172.18.0.1:56092] script '/var/www/html/users.php' not found or unable to stat, referer: http://localhost/auth.php
+[Sat Dec 04 21:49:34.262954 2021] [php7:notice] [pid 21] [client 172.18.0.1:56096] PHP Notice:  Undefined variable: number_of_results in /var/www/html/auth.php on line 15, referer: http://localhost/auth.html
+[Sat Dec 04 21:50:02.798161 2021] [php7:notice] [pid 17] [client 172.18.0.1:56100] PHP Notice:  Undefined variable: results_per_page in /var/www/html/auth.php on line 15, referer: http://localhost/auth.html
+[Sat Dec 04 21:50:02.799661 2021] [php7:warn] [pid 17] [client 172.18.0.1:56100] PHP Warning:  Division by zero in /var/www/html/auth.php on line 15, referer: http://localhost/auth.html
+[Sat Dec 04 21:50:02.800218 2021] [php7:notice] [pid 17] [client 172.18.0.1:56100] PHP Notice:  Undefined variable: results_per_page in /var/www/html/auth.php on line 23, referer: http://localhost/auth.html
+[Sat Dec 04 21:50:02.800810 2021] [php7:notice] [pid 17] [client 172.18.0.1:56100] PHP Notice:  Undefined variable: results_per_page in /var/www/html/auth.php on line 33, referer: http://localhost/auth.html
+[Sat Dec 04 21:50:02.801933 2021] [php7:warn] [pid 17] [client 172.18.0.1:56100] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /var/www/html/auth.php on line 34, referer: http://localhost/auth.html
+[Sat Dec 04 21:50:02.802722 2021] [php7:notice] [pid 17] [client 172.18.0.1:56100] PHP Notice:  Undefined variable: users in /var/www/html/auth.php on line 81, referer: http://localhost/auth.html
+[Sat Dec 04 21:50:02.803663 2021] [php7:warn] [pid 17] [client 172.18.0.1:56100] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/auth.php on line 81, referer: http://localhost/auth.html
+[Sat Dec 04 21:50:08.590909 2021] [php7:notice] [pid 22] [client 172.18.0.1:56104] PHP Notice:  Undefined variable: results_per_page in /var/www/html/auth.php on line 15, referer: http://localhost/auth.html
+[Sat Dec 04 21:50:08.593516 2021] [php7:warn] [pid 22] [client 172.18.0.1:56104] PHP Warning:  Division by zero in /var/www/html/auth.php on line 15, referer: http://localhost/auth.html
+[Sat Dec 04 21:50:08.594898 2021] [php7:notice] [pid 22] [client 172.18.0.1:56104] PHP Notice:  Undefined variable: results_per_page in /var/www/html/auth.php on line 23, referer: http://localhost/auth.html
+[Sat Dec 04 21:50:08.595878 2021] [php7:notice] [pid 22] [client 172.18.0.1:56104] PHP Notice:  Undefined variable: results_per_page in /var/www/html/auth.php on line 33, referer: http://localhost/auth.html
+[Sat Dec 04 21:50:08.597070 2021] [php7:warn] [pid 22] [client 172.18.0.1:56104] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /var/www/html/auth.php on line 34, referer: http://localhost/auth.html
+[Sat Dec 04 21:50:08.597779 2021] [php7:notice] [pid 22] [client 172.18.0.1:56104] PHP Notice:  Undefined variable: users in /var/www/html/auth.php on line 81, referer: http://localhost/auth.html
+[Sat Dec 04 21:50:08.598643 2021] [php7:warn] [pid 22] [client 172.18.0.1:56104] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/auth.php on line 81, referer: http://localhost/auth.html
+[Sat Dec 04 21:51:08.863596 2021] [php7:notice] [pid 19] [client 172.18.0.1:56108] PHP Notice:  Undefined index: email in /var/www/html/auth.php on line 3
+[Sat Dec 04 21:51:08.865859 2021] [php7:notice] [pid 19] [client 172.18.0.1:56108] PHP Notice:  Undefined index: password in /var/www/html/auth.php on line 4
+[Sat Dec 04 21:51:35.060582 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.4. Set the 'ServerName' directive globally to suppress this message
+[Sat Dec 04 21:52:27.899497 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.26 configured -- resuming normal operations
+[Sat Dec 04 21:52:27.909196 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Dec 04 21:52:36.421023 2021] [php7:error] [pid 18] [client 172.18.0.1:56112] script '/var/www/html/users.php' not found or unable to stat, referer: http://localhost/auth.php
+[Sat Dec 04 21:53:38.471486 2021] [php7:error] [pid 19] [client 172.18.0.1:56116] script '/var/www/html/users.php' not found or unable to stat, referer: http://localhost/auth.php
+[Sat Dec 04 21:53:40.837544 2021] [php7:error] [pid 19] [client 172.18.0.1:56116] script '/var/www/html/users.php' not found or unable to stat, referer: http://localhost/auth.php
+[Sat Dec 04 21:54:11.732483 2021] [php7:notice] [pid 20] [client 172.18.0.1:56120] PHP Notice:  Undefined index: email in /var/www/html/auth.php on line 8, referer: http://localhost/auth.php
+[Sat Dec 04 21:54:11.733582 2021] [php7:notice] [pid 20] [client 172.18.0.1:56120] PHP Notice:  Undefined index: password in /var/www/html/auth.php on line 9, referer: http://localhost/auth.php
+[Sat Dec 04 21:54:17.324552 2021] [php7:notice] [pid 21] [client 172.18.0.1:56126] PHP Notice:  Undefined index: email in /var/www/html/auth.php on line 8, referer: http://localhost/auth.php?page=2
+[Sat Dec 04 21:54:17.325700 2021] [php7:notice] [pid 21] [client 172.18.0.1:56126] PHP Notice:  Undefined index: password in /var/www/html/auth.php on line 9, referer: http://localhost/auth.php?page=2
+[Sat Dec 04 21:54:18.835216 2021] [php7:notice] [pid 21] [client 172.18.0.1:56126] PHP Notice:  Undefined index: email in /var/www/html/auth.php on line 8, referer: http://localhost/auth.php?page=3
+[Sat Dec 04 21:54:18.836788 2021] [php7:notice] [pid 21] [client 172.18.0.1:56126] PHP Notice:  Undefined index: password in /var/www/html/auth.php on line 9, referer: http://localhost/auth.php?page=3
+[Sat Dec 04 21:54:19.667730 2021] [php7:notice] [pid 21] [client 172.18.0.1:56126] PHP Notice:  Undefined index: email in /var/www/html/auth.php on line 8, referer: http://localhost/auth.php?page=1
+[Sat Dec 04 21:54:19.672061 2021] [php7:notice] [pid 21] [client 172.18.0.1:56126] PHP Notice:  Undefined index: password in /var/www/html/auth.php on line 9, referer: http://localhost/auth.php?page=1
+[Sat Dec 04 21:54:20.474838 2021] [php7:notice] [pid 21] [client 172.18.0.1:56126] PHP Notice:  Undefined index: email in /var/www/html/auth.php on line 8, referer: http://localhost/auth.php?page=2
+[Sat Dec 04 21:54:20.475833 2021] [php7:notice] [pid 21] [client 172.18.0.1:56126] PHP Notice:  Undefined index: password in /var/www/html/auth.php on line 9, referer: http://localhost/auth.php?page=2
+[Sat Dec 04 21:54:22.083173 2021] [php7:notice] [pid 21] [client 172.18.0.1:56126] PHP Notice:  Undefined index: email in /var/www/html/auth.php on line 8, referer: http://localhost/auth.php?page=3
+[Sat Dec 04 21:54:22.084626 2021] [php7:notice] [pid 21] [client 172.18.0.1:56126] PHP Notice:  Undefined index: password in /var/www/html/auth.php on line 9, referer: http://localhost/auth.php?page=3
+[Sat Dec 04 21:54:24.117636 2021] [php7:notice] [pid 21] [client 172.18.0.1:56126] PHP Notice:  Undefined index: email in /var/www/html/auth.php on line 8, referer: http://localhost/auth.php?page=2
+[Sat Dec 04 21:54:24.119652 2021] [php7:notice] [pid 21] [client 172.18.0.1:56126] PHP Notice:  Undefined index: password in /var/www/html/auth.php on line 9, referer: http://localhost/auth.php?page=2
+[Sat Dec 04 21:54:25.747948 2021] [php7:notice] [pid 21] [client 172.18.0.1:56126] PHP Notice:  Undefined index: email in /var/www/html/auth.php on line 8, referer: http://localhost/auth.php?page=1
+[Sat Dec 04 21:54:25.749167 2021] [php7:notice] [pid 21] [client 172.18.0.1:56126] PHP Notice:  Undefined index: password in /var/www/html/auth.php on line 9, referer: http://localhost/auth.php?page=1
+[Sat Dec 04 21:54:26.460803 2021] [php7:notice] [pid 21] [client 172.18.0.1:56126] PHP Notice:  Undefined index: email in /var/www/html/auth.php on line 8, referer: http://localhost/auth.php?page=2
+[Sat Dec 04 21:54:26.462418 2021] [php7:notice] [pid 21] [client 172.18.0.1:56126] PHP Notice:  Undefined index: password in /var/www/html/auth.php on line 9, referer: http://localhost/auth.php?page=2
+[Sat Dec 04 21:58:57.864901 2021] [php7:notice] [pid 18] [client 172.18.0.1:56200] PHP Notice:  Undefined index: agree in /var/www/html/reg.php on line 9, referer: http://localhost/
+[Sat Dec 04 22:23:23.908070 2021] [php7:warn] [pid 22] [client 172.18.0.1:56288] PHP Warning:  require(users.php?page=1): failed to open stream: No such file or directory in /var/www/html/auth.php on line 19, referer: http://localhost/auth.html
+[Sat Dec 04 22:23:23.910618 2021] [php7:error] [pid 22] [client 172.18.0.1:56288] PHP Fatal error:  require(): Failed opening required 'users.php?page=1' (include_path='.:/usr/local/lib/php') in /var/www/html/auth.php on line 19, referer: http://localhost/auth.html
+[Sat Dec 04 22:27:06.194303 2021] [php7:warn] [pid 19] [client 172.18.0.1:56302] PHP Warning:  file_get_contents(users.php?page=1): failed to open stream: No such file or directory in /var/www/html/auth.php on line 19, referer: http://localhost/auth.html
+[Sat Dec 04 22:31:50.217482 2021] [php7:warn] [pid 20] [client 172.18.0.1:56306] PHP Warning:  file_get_contents(users.php?page=1): failed to open stream: No such file or directory in /var/www/html/auth.php on line 19, referer: http://localhost/auth.html
+[Sat Dec 04 22:33:24.338707 2021] [php7:notice] [pid 23] [client 172.18.0.1:56322] PHP Notice:  Undefined index: email in /var/www/html/auth.php on line 2
+[Sat Dec 04 22:33:24.340111 2021] [php7:notice] [pid 23] [client 172.18.0.1:56322] PHP Notice:  Undefined index: password in /var/www/html/auth.php on line 3
+[Sat Dec 04 23:14:29.845173 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully

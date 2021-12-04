@@ -1,50 +1,35 @@
 version: '3'
 services:
   apache:
-    build: # инструкции для создания образа
-      # контекст (путь к каталогу, содержащему Dockerfile)
+    build: 
       context: ./apache/
-      # это необязательно, потому что контекст уже задан
       dockerfile: Dockerfile
     ports:
-      # контейнер будет доступен на порту 80 основной системы
       - 80:80
-    volumes: # путь указывается от директории, где расположен docker-compose.yml
-      # монтируем директорию с php-скриптом внутрь контейнера
+    volumes: 
       - ./apache/html/:/var/www/html/
-      # монтируем файл конфигурации php.ini внутрь контейнера
+      
       - ./apache/php.ini:/usr/local/etc/php/php.ini
-      # монтируем файл конфигурации Apache2 внутрь контейнера
       - ./apache/httpd.conf:/etc/apache2/apache2.conf
-      # монтируем файл логов доступа Apache2 внутрь контейнера
       - ./apache/logs/access.log:/var/log/apache2/access.log
-      # монтируем файл логов ошибок Apache2 внутрь контейнера
       - ./apache/logs/error.log:/var/log/apache2/error.log
   mysql:
-    build: # инструкции для создания образа
-      # контекст (путь к каталогу, содержащему Dockerfile)
+    build: 
       context: ./mysql/
-      # это необязательно, потому что контекст уже задан
       dockerfile: Dockerfile
     environment:
-      # пароль пользователя root
       MYSQL_ROOT_PASSWORD: qwerty
     ports:
       - 3306:3306
-    volumes: # путь указывается от директории, где расположен docker-compose.yml
-      # монтируем файл конфигурации MySQL внутрь контейнера
+    volumes: 
       - ./mysql/mysql.cnf:/etc/mysql/my.cnf
-      # монтируем директорию с базами данных внутрь контейнера
       - ./mysql/data/:/var/lib/mysql/
-      # монтируем директорию с логами MySQL внутрь контейнера
       - ./mysql/logs/:/var/log/mysql/
   pma:
-    # используем готовый образ phpmyadmin
     image: phpmyadmin/phpmyadmin
     ports:
       - 8081:80
     environment:
-      # название хоста в сети www_default
       PMA_HOST: mysql
       MYSQL_USERNAME: root
       MYSQL_ROOT_PASSWORD: qwerty
