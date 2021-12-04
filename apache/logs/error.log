@@ -218,3 +218,5 @@ AH00558: apache2: Could not reliably determine the server's fully qualified doma
 [Sat Dec 04 17:51:03.244855 2021] [php7:notice] [pid 20] [client 172.18.0.1:55858] PHP Notice:  Undefined index: email in /var/www/html/auth.php on line 5
 [Sat Dec 04 17:51:03.246099 2021] [php7:notice] [pid 20] [client 172.18.0.1:55858] PHP Notice:  Undefined index: password in /var/www/html/auth.php on line 6
 [Sat Dec 04 17:52:02.163325 2021] [php7:error] [pid 18] [client 172.18.0.1:55862] script '/var/www/html/users.php' not found or unable to stat
+[Sat Dec 04 18:59:17.362123 2021] [php7:notice] [pid 18] [client 172.18.0.1:55880] PHP Notice:  Undefined index: email in /var/www/html/auth.php on line 5, referer: http://localhost/auth.php
+[Sat Dec 04 18:59:17.365284 2021] [php7:notice] [pid 18] [client 172.18.0.1:55880] PHP Notice:  Undefined index: password in /var/www/html/auth.php on line 6, referer: http://localhost/auth.php

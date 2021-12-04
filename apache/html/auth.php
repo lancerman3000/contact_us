@@ -15,5 +15,11 @@ $customers = $mysqli->query("SELECT * FROM `users`");
 while ($result = mysqli_fetch_array($customers, MYSQLI_ASSOC) ) {
     $users[]= $result;
 }
+
+
+
+
+
+
 require('users.html')
 ?>

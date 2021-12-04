@@ -21,3 +21,5 @@ if ($user_is_created) {
 require ('auth.html');
 $mysqli->close();
 ?>
+
+query();
