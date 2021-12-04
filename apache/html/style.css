@@ -1,0 +1,34 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+/* .container{
+    max-width: 500px;
+} */
+h1{
+    text-align: center;
+    margin: 50px;
+}
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin: 20px auto;
+    padding: 20px;
+
+}
+.button_box{
+    /* width: 100%; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.button_box>a{
+    margin-right: 20px;
+}
